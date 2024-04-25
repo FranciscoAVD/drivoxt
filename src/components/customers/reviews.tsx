@@ -40,7 +40,7 @@ function Review({
     <CarouselItem>
       <div className="flex flex-col items-center justify-center gap-y-4 px-10">
         <p className="text-center text-2xl leading-[28px] font-medium mb-2">
-          "{review}"
+          &quot;{review}&quot;
         </p>
         <div className="h-14 lg:h-12 w-14 lg:w-12 rounded-full overflow-hidden">
           <Image src={image} alt="" className="w-full h-auto" />

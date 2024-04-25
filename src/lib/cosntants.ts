@@ -41,25 +41,25 @@ export const reviews = [
   {
     customer: "Michael Patel",
     review:
-      "I've been a loyal customer of Drivoxt for years now, and I'm continually impressed by their commitment to customer satisfaction. Whether I'm renting for a business trip or buying a new car, Drivoxt always provides top-notch service and quality vehicles. Thanks for making car transactions so easy!",
+      "I&apos;ve been a loyal customer of Drivoxt for years now, and I&apos;m continually impressed by their commitment to customer satisfaction. Whether I&apos;m renting for a business trip or buying a new car, Drivoxt always provides top-notch service and quality vehicles. Thanks for making car transactions so easy!",
     image: guy1,
   },
   {
     customer: "Sarah Thompson",
     review:
-      "Drivoxt is hands down the best in the business! I recently sold my car through their platform, and the whole process was seamless. Their website is user-friendly, their team is professional and helpful, and they got me a great price for my vehicle. I wouldn't trust anyone else with my car needs!",
+      "Drivoxt is hands down the best in the business! I recently sold my car through their platform, and the whole process was seamless. Their website is user-friendly, their team is professional and helpful, and they got me a great price for my vehicle. I wouldn&apos;t trust anyone else with my car needs!",
     image: girl2,
   },
   {
     customer: "David Garcia",
     review:
-      "I can't thank Drivoxt enough for their fantastic service. Renting a car for my family vacation was a breeze, thanks to their wide selection of vehicles and convenient booking process. Plus, their prices are competitive, making it an excellent value for the quality of service they provide. Will definitely be using Drivoxt again!",
+      "I can&apos;t thank Drivoxt enough for their fantastic service. Renting a car for my family vacation was a breeze, thanks to their wide selection of vehicles and convenient booking process. Plus, their prices are competitive, making it an excellent value for the quality of service they provide. Will definitely be using Drivoxt again!",
     image: guy2,
   },
   {
     customer: "Lisa Anderson",
     review:
-      "Drivoxt truly stands out in the automotive industry for their exceptional customer service and reliability. Whether you're renting, selling, or buying, they go above and beyond to ensure a positive experience. I've used their services multiple times and have never been disappointed. Keep up the great work, Drivoxt!",
+      "Drivoxt truly stands out in the automotive industry for their exceptional customer service and reliability. Whether you&apos;re renting, selling, or buying, they go above and beyond to ensure a positive experience. I&apos;ve used their services multiple times and have never been disappointed. Keep up the great work, Drivoxt!",
     image: girl3,
   },
 ];

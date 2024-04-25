@@ -42,7 +42,7 @@ export default function Footer() {
   return (
     <footer className="max-w-[1536px] lg:h-[350px] mx-auto flex flex-col lg:flex-row justify-around gap-x-4 gap-y-10 lg:gap-y-0 bg-stone-100 pt-10 lg:pt-0 pb-12 px-10">
       <div className="flex flex-col lg:mt-auto">
-        <h2 className="H1 text-balance">Don't Miss a Thing</h2>
+        <h2 className="H1 text-balance">Don&apos;t Miss a Thing</h2>
         <span className="P1 text-body/70">
           Subscribe to our newsletter for exclusive deals and updates.
         </span>
