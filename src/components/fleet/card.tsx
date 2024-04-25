@@ -32,7 +32,7 @@ export default function Card({
             popular
           </div>
         )}
-        <Image src={image} alt="" className="h-full object-contain w-auto" />
+        <Image src={image} alt="" className="h-full object-contain w-auto" placeholder="blur"/>
       </div>
 
       <section
