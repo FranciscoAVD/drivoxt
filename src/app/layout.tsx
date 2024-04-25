@@ -5,8 +5,8 @@ import { Toaster } from "@/components/ui/toaster";
 //const inter = Inter({ subsets: ["latin"] });
 const syne = Syne({ subsets: ["latin"] });
 export const metadata: Metadata = {
-  title: "Car Rental",
-  description: "Easy and trustworthy car renting service",
+  title: "DRIVOXT",
+  description: "Buying, selling and renting car service",
 };
 
 export default function RootLayout({
