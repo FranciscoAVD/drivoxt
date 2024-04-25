@@ -2,32 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.H1 {
+    @apply text-6xl leading-[67px] font-bold
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.H2 {
+    @apply text-2xl leading-[28px] font-bold
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.B1 {
+    @apply text-xl leading-[24px] font-semibold
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.B2 {
+    @apply text-base leading-[19px] font-semibold
+}
+
+.P1 {
+    @apply text-lg leading-[24px] font-medium
+}
+
+.P2 {
+    @apply text-sm leading-[16px]
+}
+
+.card-blur{
+    backdrop-filter: blur(5px);
+}
+
+.actions:hover > div{
+    transform-origin: 0;
+    animation: grow 500ms forwards ease;
+}
+
+
+ #how{
+    background-image: url("../../public/Assets/Background.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+@keyframes grow {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
 }

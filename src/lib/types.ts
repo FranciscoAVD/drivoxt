@@ -1,0 +1,1 @@
+export type TSVG = React.ForwardRefExoticComponent<Omit<React.SVGProps<SVGSVGElement>, "ref">>;
