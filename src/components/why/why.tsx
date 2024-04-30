@@ -10,8 +10,7 @@ export default function Why() {
           Why Choose <span className="block">Drivoxt?</span>
         </h2>
         <p className="B1 lg:P1 text-body/70 max-w-[300px] mx-auto lg:mx-0">
-          Join our satisfied customer who trust us for their journeys. We serve
-          with a lot of values that you can feel directly.
+          Join our satisfied customers who trust us for their journeys. We labor with values we are sure you can relate to.
         </p>
       </section>
 
