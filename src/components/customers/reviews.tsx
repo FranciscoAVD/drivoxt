@@ -8,7 +8,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "../ui/carousel";
-import { reviews } from "@/lib/constants";
+import { reviews } from "../../lib/constants";
 
 export default function Reviews() {
   return (

@@ -1,8 +1,8 @@
 "use client";
 
-import { carFleet } from "@/lib/constants";
+import { carFleet } from "../../lib/constants";
 import Card from "./card";
-import { cn } from "@/lib/utils";
+import { cn } from "../../lib/utils";
 import { Dispatch, SetStateAction, useState } from "react";
 import { Carousel, CarouselContent, CarouselItem } from "../ui/carousel";
 export default function Cars() {

@@ -15,7 +15,7 @@ import {
   SelectValue,
   SelectSeparator,
 } from "@/components/ui/select";
-import { groups } from "@/lib/constants";
+import { groups } from "../../../lib/constants";
 import {
   Form,
   FormControl,
