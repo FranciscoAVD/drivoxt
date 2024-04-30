@@ -1,6 +1,6 @@
 import React from "react";
 import line2 from "../../../public/Assets/Line 2.png";
-import { howItWorks } from "@/lib/cosntants";
+import { howItWorks } from "@/lib/constants";
 import HowIcon from "./how-icon";
 import Blob from "./blob";
 import Image from "next/image";

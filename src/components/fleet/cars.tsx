@@ -1,6 +1,6 @@
 "use client";
 
-import { carFleet } from "@/lib/cosntants";
+import { carFleet } from "@/lib/constants";
 import Card from "./card";
 import { cn } from "@/lib/utils";
 import { Dispatch, SetStateAction, useState } from "react";
