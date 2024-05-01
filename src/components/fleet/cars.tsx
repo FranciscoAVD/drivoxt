@@ -30,7 +30,7 @@ export default function Cars() {
       <h2 className="H1 mb-12 lg:mb-20 text-center lg:text-left">
         Our Impressive Fleet
       </h2>
-      <Carousel setApi={setApi} className="md:hidden w-[85%] mb-10 shadow-md rounded-xl">
+      <Carousel setApi={setApi} className="md:hidden w-[85%] max-w-xs mb-10 shadow-md rounded-xl">
         <CarouselContent>
           {carFleet.map((car) => (
             <CarouselItem key={`${car.name}_carousel`}>
@@ -45,7 +45,7 @@ export default function Cars() {
           ))}
         </CarouselContent>
       </Carousel>
-      <section className="md:hidden flex gap-x-2 items-center justify-between w-[85%] mb-6">
+      <section className="md:hidden flex gap-x-2 items-center justify-between w-[85%] mb-6 max-w-xs">
         <div className={cn(`h-1 w-8 rounded bg-stone-200`,{
           "bg-accent": current === 1
         })}/>
@@ -76,7 +76,7 @@ export default function Cars() {
           />
         ))}
       </div>
-      <div className="flex justify-between items-center gap-x-6">
+      <section className="flex justify-between items-center w-full max-w-xs gap-x-6">
         {Array.from({ length: 5 }, (_, index) => (
           <Pagination
             key={index}
@@ -85,7 +85,7 @@ export default function Cars() {
             set={setActive}
           />
         ))}
-      </div>
+      </section>
     </section>
   );
 }
